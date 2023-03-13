@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:linear-gradient(180deg,#06162e , #7534be,#06162e );
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+/* Container */
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+/* #navbar a {
+    transition: all 2s;
+} */
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1.0rem;
+}
+
+#navbar ul li a:hover {
+    background-color:#7534be;
+    border-radius: 7px;
+}
+
+/*Home Section */
+#canprofil {
+    border-radius: 100%;
+    width: 10rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px outset #4d00ac;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+#mahlas {
+    font-style: italic;
+    opacity: 0.9;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#home .skills {
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#home h2 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+/* Packs Section */
+#offers {
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 2px outset #4d00ac;
+}
+
+#offers .items {
+    display: flex;
+    justify-content: center;
+}
+#offers .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#offers .items .item .offer-name {
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offers .items .item p {
+    letter-spacing: 0.5px;
+}
+
+#offers .items .item:hover {
+    box-shadow: 6px 10px 15px #3a0c6e;
+}
+
+#offers .items {
+    display: flex;
+    flex-direction: column;
+}
+
+#offers .items a{
+    display: flex;
+}
+/* Beats Seciton */
+#beats h3 {
+    padding: 1rem;
+    color: #fff;
+}
+
+#beats .allbeats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+#beats .allbeats #infinity {
+    transition: all 0.3s;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#beats .allbeats #infinity:hover {
+    box-shadow: 8px 12px 17px #000000;
+}
+
+#beats .allbeats #mars {
+    transition: all 0.3s;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#beats .allbeats #mars:hover {
+    box-shadow: 6px 10px 15px #000000;
+}
+
+#beats .allbeats #sky {
+    transition: all 0.3s;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#beats .allbeats #sky:hover {
+    box-shadow: 6px 10px 15px #000000;
+}
+/* Contact Section */
+#contact {
+    color: #fff;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contact ul li a {
+    padding: 1rem 4rem;
+    display: inline-block;
+}
+
+
+
+#contact ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contact li {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+#contact li:hover {
+    box-shadow: 6px 10px 15px #3a0c6e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
