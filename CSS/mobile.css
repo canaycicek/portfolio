@@ -5,18 +5,18 @@
 }
 
 #navbar ul {
-    font-size: 0.70rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
+
 }
 
-#offers .mainhead {
-    margin-bottom: 1rem;
+#contact ul li a {
+    display: inline-block;
+    padding: 1rem 2rem;
 }
 
-#offers .items a{
-    flex-direction: column;
-}
-
-#offers .items .item {
-    width: 100%;
+#contact i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
