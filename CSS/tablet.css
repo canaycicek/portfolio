@@ -1,0 +1,13 @@
+#offers .mainhead {
+    margin-bottom: 1rem;
+}
+
+#offers .items {
+    flex-direction: column;
+}
+
+#offers .items .item {
+    width: 100%;
+    border-bottom: 2px outset #613e88 ;
+
+}
